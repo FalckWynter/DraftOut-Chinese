@@ -1,0 +1,11 @@
+找到你的【draftout】mod，应该是一个.jar文件。
+路径draftout-1.10.3.jar\assets\draftout\lang，
+未汉化的版本应该有一个en_us.json
+将zh_cn.json放在该文件夹下即可。
+需要启动的minecraft语言为中文。
+-
+将.jar文件解压，放入json文件后再重新压缩也可以
+-
+转发请注明作者。
+好多好多鱼制作。
+Chatgpt翻译。
