@@ -1,25 +1,13 @@
-Draftout 简体中文汉化安装说明
-当前默认资源包适用于 Draftout 1.18.0 / Minecraft 26.3。
+首先，从下载渠道获取配置文件压缩包，并将其解压，得到汉化配置json文件(zh_cn.json)。
 
-推荐安装方式（不修改 MOD JAR）：
-1. 在 GitHub 仓库点击 Code → Download ZIP，并解压。
-2. 找到同时包含 pack.mcmeta 和 assets 的文件夹，通常为 DraftOut-Chinese-main。
-3. 打开棱镜启动器中的“实例文件夹”，进入 minecraft/resourcepacks。
-4. 将上述文件夹整体放入 resourcepacks，不要直接放入 GitHub 下载的外层 ZIP。
-5. 进入游戏的“选项 → 资源包”，启用该汉化包，再将语言设为“简体中文”。
+打开棱镜启动器，选择“实例文件夹”。
+依次进入“minecraft”、“mods”文件夹，找到draftout的mod文件“draftout-1.10.3.jar”。
+【draftout】mod应该是一个.jar文件。
 
-正确路径示例：
-minecraft/resourcepacks/DraftOut-Chinese-main/pack.mcmeta
-minecraft/resourcepacks/DraftOut-Chinese-main/assets/draftout/lang/zh_cn.json
-
-旧版本及单独 JSON：
-1.10.3、1.11.1、1.18.0 文件夹分别保存对应 Draftout 版本的 zh_cn.json，不能直接混用。
-将对应 JSON 放入自己资源包的 assets/draftout/lang/zh_cn.json。
-资源包元数据必须匹配 Minecraft 版本；仓库根目录的 pack.mcmeta 仅面向 26.3。
-也可备份原 MOD JAR 后，把对应 JSON 加入 JAR 的 assets/draftout/lang 路径。
-更新 MOD 后，如采用修改 JAR 的方式，需要重新安装汉化。
-
-若仍显示英文，检查游戏语言、资源包是否已启用，以及 assets 外是否多套了一层目录。
+将.jar文件以压缩包形式打开。
+依次进入assets\draftout\lang文件夹，未汉化的版本在该目录下应该有一个en_us.json。
+将zh_cn.json放在该文件夹下即可。
+需要启动的minecraft语言为简体中文。
 -
 转发请注明作者。
 好多好多鱼制作。
